@@ -1,0 +1,92 @@
+{
+  "features": {
+    "tsc": true
+  },
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "inlineSourceMap": true,
+    "inlineSources": false,
+    "sourceRoot": "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/src",
+    "outDir": "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist",
+    "rootDir": "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/src",
+    "listEmittedFiles": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": false,
+    "stripInternal": true,
+    "pretty": true,
+    "declaration": true
+  },
+  "include": [
+    "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/src"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules",
+    "test"
+  ],
+  "compileOnSave": true,
+  "build": {
+    "inputFiles": [
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/src/configuration.ts",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/src/index.ts",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/src/interface.ts",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/src/config/config.default.ts",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/src/config/config.local.ts",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/src/config/config.prod.ts",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/src/lib/create.ts",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/src/lib/delete.ts",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/src/lib/get.ts",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/src/lib/init.ts",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/src/lib/parser.ts",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/src/lib/query.ts",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/src/lib/transaction.ts",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/src/lib/update.ts",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/src/service/sequelize.ts",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/src/service/typeorm.ts"
+    ],
+    "outputFiles": [
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist/configuration.js",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist/configuration.d.ts",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist/interface.js",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist/interface.d.ts",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist/lib/init.js",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist/lib/init.d.ts",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist/service/sequelize.js",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist/service/sequelize.d.ts",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist/service/typeorm.js",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist/service/typeorm.d.ts",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist/index.js",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist/index.d.ts",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist/config/config.default.js",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist/config/config.default.d.ts",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist/config/config.local.js",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist/config/config.local.d.ts",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist/config/config.prod.js",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist/config/config.prod.d.ts",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist/lib/create.js",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist/lib/create.d.ts",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist/lib/delete.js",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist/lib/delete.d.ts",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist/lib/get.js",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist/lib/get.d.ts",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist/lib/parser.js",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist/lib/parser.d.ts",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist/lib/query.js",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist/lib/query.d.ts",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist/lib/transaction.js",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist/lib/transaction.d.ts",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist/lib/update.js",
+      "/Users/Qun/Unclutter/九泰药业项目/server/src/components/midway-orm-sql/dist/lib/update.d.ts"
+    ]
+  },
+  "versions": {
+    "mwcc": "0.3.5",
+    "typescript": "3.9.7"
+  }
+}
