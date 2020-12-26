@@ -1,0 +1,30 @@
+{
+    "name": "midway-orm-sql",
+    "version": "0.0.1",
+    "main": "dist/index",
+    "typings": "dist/index.d.ts",
+    "dependencies": {
+        "egg-sequelize": "^5.2.0",
+        "@midwayjs/orm": "^1.2.1",
+        "mysql2": "^2.2.5",
+        "midway-tool": "file:../midway-tool"
+    },
+    "devDependencies": {
+        "@midwayjs/cli": "^1.0.0",
+        "@midwayjs/core": "^2.3.0",
+        "@midwayjs/decorator": "^2.3.0",
+        "sequelize-cli": "^5.5.0"
+    },
+    "scripts": {
+        "build": "midway-bin build -c",
+        "test": "NODE_ENV=test midway-bin test --ts --full-trace",
+        "cov": "NODE_ENV=unittest midway-bin cov --ts",
+        "clean": "midway-bin clean",
+        "autod": "midway-bin autod"
+    },
+    "license": "MIT",
+    "files": [
+        "dist",
+        "src"
+    ]
+}
