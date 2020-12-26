@@ -1,4 +1,0 @@
-export = {
-    // TypeORM
-    orm: {}
-}

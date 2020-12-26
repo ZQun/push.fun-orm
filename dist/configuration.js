@@ -13,7 +13,7 @@ exports.SQLConfiguration = void 0;
 const decorator_1 = require("@midwayjs/decorator");
 const path_1 = require("path");
 const typeorm = require("@midwayjs/orm");
-const tool = require("midway-tool/src");
+const tool = require("midway-tool/dist");
 let SQLConfiguration = class SQLConfiguration {
     async onReady(content) {
         // console.log('-->组件内：configuration执行')
