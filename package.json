@@ -7,7 +7,7 @@
         "egg-sequelize": "^5.2.0",
         "@midwayjs/orm": "^1.2.1",
         "mysql2": "^2.2.5",
-        "midway-tool": "file:../midway-tool"
+        "midway-tool": "git+http://git.rey.cc/rey/midway-tool"
     },
     "devDependencies": {
         "@midwayjs/cli": "^1.0.0",
