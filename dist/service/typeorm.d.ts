@@ -1,8 +1,6 @@
-import { InitLib } from '../lib/init';
 import { Nanoid, Tool } from 'midway-tool/dist';
 export declare class Typeorm {
     ctx: any;
-    init: InitLib;
     nanoid: Nanoid;
     tool: Tool;
     sequelize: any;
